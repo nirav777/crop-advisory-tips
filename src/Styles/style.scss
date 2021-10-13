@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gainsboro;
+
+    h2, h3 {
+        color: black;
+        font-style: oblique;
+        text-decoration: none;
+    }
+}
+
+.main-window {
+    text-align: -webkit-center;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.post {
+    border: 1px solid black;
+    width: 50%;
+    text-align: left;
+    margin: 25px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    letter-spacing: 1px;
+
+    h2, h5, p{
+        padding: 5px;
+        margin: 0;
+    } 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: auto;
+
+    #s, button {
+        height: 50px;
+        margin: 5px;
+        font-size: large;
+        letter-spacing: 1px;
+    }
+
+    #l {
+        height: 200px;
+        margin: 5px;
+        font-size: large;
+    }
+
+    
+
+    
+}
